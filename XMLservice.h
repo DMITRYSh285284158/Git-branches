@@ -8,6 +8,8 @@ using namespace std;
 class XmlService : public Service
 {
 public:
+
 	virtual Weather getWeather(string s) override;
+
 	virtual ~XmlService() {};
 };
